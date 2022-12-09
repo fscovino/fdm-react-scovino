@@ -1,9 +1,38 @@
 .navbar {
-    border-bottom: 1px solid #000;
-    background: #00b6ad;
+    border-bottom: 1px solid #FFF;
+    background: #000;
+    height: 75px;
 }
 
 .logo {
-    border-radius: 50%;
-    border: 1px solid #000;
+    height: 50px;
+}
+
+.logo-lg {
+    height: 90px;
+}
+
+.main-body {
+    height: calc(100vh - 75px);
+    background: linear-gradient(30deg, rgba(69,12,255,1) 0%, rgba(98,24,255,1) 60%, rgba(135,40,255,1) 100%);
+    margin: 0;
+}
+
+.title-desc {
+    background: #f1f1f100;
+    border: 1px solid #f1f1f100;
+    cursor: pointer;
+    width: 100%;
+}
+
+.title-desc:hover {
+    background: #b4f4ff;
+    border: 1px solid #bebebe;
+}
+
+.footer {
+    background: #000;
+    border-top: 1px solid #FFF;
+    width: 100vw;
+    height: 215px;
 }
